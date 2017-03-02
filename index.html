@@ -26,7 +26,7 @@
         <a-entity id="links" layout="type: line; margin: 1.5" position="0.8 1.5 -10" rotation="" scale="1.0" visible="true">
             <!--Game launcher ui-->
             <a-entity text="text: Honor" position="" rotation="" scale="" visible="true">
-                <a-plane id="game" width="0.5" height="0.5" src="#game_pic">
+                <a-plane id="game" width="0.5" height="0.5" src="#game_pic" shader="flat">
                     <!--a-animation attribute="rotation" dur="10000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation-->
                     <script type="text/javascript">
                         function loadUrl(newLocation)
@@ -51,7 +51,7 @@
         
             <!-- Photo Launcher ui-->
             <a-entity text="text: Shark"  position="" rotation="" scale="" visible="">
-                <a-plane id="photo" width="0.5" height="0.5" src="#photo_pic">
+                <a-plane id="photo" width="0.5" height="0.5" src="#photo_pic" shader="flat">
                     <script type="text/javascript">
                         function loadUrl(newLocation)
                         {
@@ -74,7 +74,7 @@
             </a-entity>
             
             <a-entity text="text: Cango"  position="" rotation="" scale="" visible="">
-                <a-plane id="solar" width="0.5" height="0.5" src="#solar_pic">
+                <a-plane id="solar" width="0.5" height="0.5" src="#solar_pic" shader="flat">
                     <script type="text/javascript">
                         function loadUrl(newLocation)
                         {
